@@ -1,0 +1,268 @@
+/* CSS Document */
+body {
+	font-family: 'Quicksand', 'Open Sans', sans-serif, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 12px;
+
+}
+
+div.wrapper {
+	margin-left:auto;
+	    margin-right:auto;
+	    width:960px;}
+
+
+
+a {
+	text-decoration: none;
+	color: darkslategrey;
+
+}
+
+.active {
+	color: gold;
+	font-weight: bold;
+}
+
+.navbar {
+  background: white;
+  width: 92%;
+  margin: 0;
+  padding: 30px;
+  overflow: hidden;
+}
+
+.logo {
+	position: absolute;
+	float: left;
+
+}
+.logo img {
+	width: 80px;
+	opacity: 1;
+	box-shadow: none;
+}
+
+
+
+
+.nav--item {
+	float: right;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	color: black;
+}
+
+.nav--item a {
+    display: block;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/*thumbnails*/
+
+
+.thumbnail {
+	display: inline-block;
+	padding: 10px;
+	overflow: hidden;
+	width: 200px;
+	height:250px;
+	margin-bottom: 30px;
+	align-content: center;
+	text-align: center;
+	text-decoration: none;
+
+}
+
+
+.thumbnail img {
+	width: 200px;
+	height: auto;
+	opacity: 1;
+}
+
+.thumbnail img:hover {
+	opacity: .3;
+	-moz-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  -webkit-transition: all 0.4s ease-out;
+  -ms-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+
+
+
+/*contact form*/
+.submitbox {
+	height: 175px;
+	width: 300px;
+	padding: 30px;
+	background-color: gold;
+	margin-top: 100px;
+	margin-left: 300px;
+	position: fixed;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	display: none;
+}
+
+.hi {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.close--button {
+	height: 30px;
+	width: 80px;
+	background-color: white;
+	padding: 10px;
+	margin: 0 auto;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.close--button a{
+	color: gold;
+	font-size: 12px;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.contactform {
+	display:inline-block;
+  margin:0 auto;
+	padding: 20px;
+	margin-top: 20px;
+
+}
+
+.contactme--header {
+	margin-top: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	color:gold;
+}
+
+label {
+    display:block;
+    margin-top:50px;
+		font-size: 15px;
+
+}
+
+input, textarea {
+    width:500px;
+    height:30px;
+    background: white;
+    border:1px solid;
+    padding:10px;
+    margin-top:3px;
+    color:grey;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+		display: block;
+}
+
+input:focus, textarea:focus {
+    border:1px solid;
+}
+
+
+.submit{
+	height: 30px;
+	width: 95px;
+	background-color: gold;
+	margin-top: 40px;
+	float: right;
+	text-align: center;
+	color: white;
+	font-size: 12px;
+	display: inline-block;
+	cursor: pointer;
+	padding-top: 20px;
+
+}
+
+.cancel {
+	height: 30px;
+	width: 80px;
+	background-color: gold;
+	padding: 10px;
+	margin-top: 40px;
+	margin-right: 20px;
+	float: right;
+	text-align: center;
+}
+
+.cancel a{
+	color: white;
+	font-size: 12px;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	padding: 10px;
+}
+
+
+
+}
+
+/*About Me*/
+
+#about-me {
+	margin-top: 30px;
+}
+
+.profilepic {
+	float:left;
+	width:400px;
+	height:300px;
+	overflow:hidden;
+}
+
+.profilepic img {
+	display: inline-block;
+	width: 400px;
+	height:auto;
+}
+
+.description {
+	height: 275px;
+	width: 50%;
+	float: right;
+	overflow: scroll;
+	line-height: 200%;
+}
+
+.aboutme--header {
+	margin-bottom: 30px;
+	font-size: 20px;
+	font-weight: bolder;
+	color:gold;
+}
+
+.resume {
+	display: inline-block;
+	width: 100%;
+	overflow: scroll;
+	line-height: 200%;
+	height: 400px;
+}
+
+.resume--header {
+	font-size: 15px;
+	font-weight: bold;
+	color: darkgrey;
+	list-style: none;
+}
